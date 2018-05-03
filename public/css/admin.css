@@ -1,0 +1,30 @@
+/* This style sheet is loaded for admin layouts only */
+/* Defined in /resources/views/admin/adminlayout.blade.php */
+
+body#admin .navbar-inverse { background: #E0341D; box-shadow: 0px 1px 1px rgba(0,0,0,0.7); }
+body#admin { padding-top: 0px !important; font-weight: 400 !important; }
+body#admin .admin-red-row { background: red; }
+.panel h2 { margin-top: 0px; padding-bottom: 10px; border-bottom: 1px solid #dddddd; text-transform: uppercase; font-weight: 900; }
+img { max-width: 100%; }
+
+.admin-left-navigation li a { color: #F04124; }
+.admin-left-navigation hr { margin: 5px; }
+
+/* Custom Select Dropdowns */
+.styled-select select {
+   background: transparent;
+   width: 175px;
+   padding: 5px;
+   line-height: 1;
+   border-radius: 0;
+   height: 34px;
+}
+
+/* Articles */
+.backend-article h3 { padding-bottom: 8px; border-bottom: 2px solid #E0341D; text-transform: uppercase; font-weight: 400; }
+
+/* Pages */
+.backend-page h3 { padding-bottom: 8px; border-bottom: 2px solid #E0341D; text-transform: uppercase; font-weight: 400; }
+
+/* Polls */
+#poll-answers { padding-left: 15px; }

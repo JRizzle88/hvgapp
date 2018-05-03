@@ -1,0 +1,161 @@
+
+body { background-color: white; font-weight: 400 !important; padding-top: 123px; }
+
+html { height: 102%; }
+img { max-width: 100%; }
+.img-center {margin:0 auto;}
+small, .small { font-size: 80% !important; }
+.fa:hover { cursor: pointer; }
+.left-background, .right-background { width: 30%; height: 120%;  position: absolute; top: 0px; z-index: -1 !important; }
+.left-background { background: url('../images/backgrounds/hvgapp-left-background.jpg') no-repeat left top; left: 0px; }
+.right-background { background: url('../images/backgrounds/hvgapp-right-background.jpg') no-repeat right top; right: 0px; }
+a:hover { text-decoration: none !important; }
+.navbar-brand { font-weight: 800 !important; }
+.company-information label { font-weight: bold; text-shadow: none; }
+
+/* Helpers */
+.divider-sm { margin-top: 25px; }
+.no-margin { margin: 0px !important; }
+.no-padding{ padding: 0px !important; }
+
+.navbar { box-shadow: 0px 2px 2px rgba(0,0,0,0.2); }
+.container { background: white; z-index: 9999 !important; }
+
+/* Header */
+header .container { background: white; padding-bottom: 35px; box-shadow: 0px 2px 2px -1px rgba(0,0,0,0.1); }
+header .messages.container { padding: 0px;  }
+header .container li a { color: #333333; font-size: 20px; padding: 15px 35px; margin-top: 37px; }
+
+/* Bodies */
+.main-content { margin-top: 15px; }
+#home {
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#home .container { background: white; }
+#home .carousel { margin-bottom:50px; }
+#home .carousel .carousel-caption { text-align: left; color: black !important; left: 75px; font-size: 16px; }
+#home .carousel .carousel-caption.slide3 { left: 45%; }
+#home .carousel .carousel-caption img { padding-bottom: 25px; }
+#home a { color: #333333; }
+#home a:hover { color: #AD2816; }
+#home .socials .fa { color: white; font-size: 70px; text-shadow: 1px 1px 0px rgba(0,0,0,0.5); }
+#home .socials .fa:hover { color: #00d63c; }
+
+/* Posts Section */
+#home .single-post { width: 100%; margin-bottom: 25px; min-height: 150px; }
+#home .single-post .content-divider { padding: 0px 10px;  height: 1px; background: #dddddd; margin-top: 10px; margin-bottom: 10px;}
+#home .single-post img { float: left; }
+#home .single-post h2 { margin: 0px; font-size: 24px; font-weight: 400; }
+#home .single-post .read-more { color: white; font-weight: 400; }
+#home .single-post .author { padding-left: 15px; }
+#home .single-post p { font-size: 14px; }
+#home .single-post .row { padding-top: 20px; padding-bottom: 40px; }
+
+/* Steam API Profile Blocks */
+.steam-profile-blocks { padding: 0px 8px !important;  }
+.steam-profile-blocks .profile-block { background: #FAFAFA; padding: 15px; box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) inset; border: 1px solid #E8E8E8; }
+.steam-profile-blocks .profile-block .media { min-height: 130px; }
+.steam-profile-blocks .profile-block .profile-block-name { font-weight: 800; margin-top: 0px; }
+.steam-profile-blocks .profile-block .profile-block-avatar { width: 95%; }
+.steam-profile-blocks .profile-block .badge { font-size: 18px; font-weight: 800; color: black; background: none; border: 5px solid #E0341D; padding: 10px !important; width: 50px; height: 50px; border-radius: 50% !important; }
+.steam-profile-blocks .profile-block .progress { margin-top: 15px; }
+.steam-profile-blocks .profile-block .progress .progress-bar { line-height: 16px; font-size: 15px; }
+
+/* Login Form */
+#home form.home-page-login { padding-left: 20px; padding-right: 20px; }
+#home form.home-page-login button { padding: 8px 45px;  }
+
+/* Home Sidebar */
+#home .sidebar h3 { margin-top: 0px; font-weight: 400; color: #333333; }
+#home .sidebar h3 a, #home .login-form .control-label span a { color: #E0341D; }
+#home .sidebar .control-label span a { padding-left: 10px; }
+#home .sidebar h3 a:hover { color: #AD2816; }
+
+/* Technologies */
+#home .technologies { color: #333333; background: white; padding: 80px 10px; }
+#home .technologies h2 { color: #333333; margin-top: 0px; text-shadow: none; font-size: 55px; }
+#home .technologies ul { }
+
+/* Posts Archive */
+.posts-archive a { color: #E0341D; }
+
+/* Single Posts View */
+.single-post h2 { margin: 0px 0px 15px 0px; }
+.single-post h3, .single-post h4 { font-weight: 800; color: #666666; }
+.single-post hr { background: black; }
+.single-post .panel { padding: 0px 5px; }
+.comment .panel { margin-bottom: 0px; margin-top: 5px; border: 1px solid #eeeeee; height: 30px; line-height: 30px; }
+.comment .well { margin-bottom: 0px; padding-top: 3px; }
+.comment .well .comment-content { padding-top: 15px; }
+.new-comment.panel, .guest-comment-msg.panel { padding: 10px; margin-top: 15px; border: 1px solid #eeeeee; }
+.new-comment h3 { margin-top: 0px; border-bottom: 2px solid #E0341D; }
+.guest-comment-msg { color: #E0341D; }
+button.delete-comment { border: none; padding: 0px; background: none; }
+button.delete-comment .fa-times:hover { color: #DC2C0F; }
+
+/* Modals */
+.modal-dialog { z-index: 9999; }
+
+/* Footer */
+#main-footer { color: white; background: white; padding: 40px 10px 80px 10px; }
+#main-footer ul li:first-child { border: 0px; }
+#main-footer ul li { padding: 10px 0px; border-top: 1px solid rgba(84,84,84,0.7); }
+#main-footer ul a { color: white; }
+#main-footer ul a:hover { color: #00d63c; }
+#main-footer ul { list-style-type: none; padding-left: 0px; }
+#main-footer ul.socials { margin-top: 40px; margin-bottom: 40px; text-align: center; }
+#main-footer ul.socials li { border: 0px; padding: 0px 8px; }
+#main-footer ul.socials .fa { font-size: 35px; }
+#main-footer ul.socials .fa:hover { color: #00d63c; }
+#main-footer h3 { padding-bottom: 10px; color: #eeeeee; font-size: 25px; font-weight: 800; border-bottom: 1px solid #008CBA; }
+
+/* Copyright */
+#copyright { padding: 10px; text-align: center; color: white; background: #E0341D; }
+#copyright a { color: #5ED26A; }
+
+/* Sidebar */
+.sidebar { margin-top: 15px; }
+.sidebar h3 { margin-top: 0px; }
+.sidebar a { color: #E0341D; }
+.sidebar a:hover { color: #AD2816;}
+.sidebar ul { list-style-type: none; padding-left: 0px; }
+.sidebar ul li:first-child { border: 0px; }
+.sidebar ul li { border-top: 1px solid white; padding: 6px; }
+.sidebar-poll-answers li { padding: 5px 0px !important; }
+.sidebar-poll-answers li .badge { font-size: 20px; font-weight: bold; color: #E0341D; }
+.sidebar-poll-answers li .btn-danger { color: white !important; padding: 1px 10px; margin-top: 22px; }
+.sidebar-poll-answers li .progress-bar { line-height: 16px; font-size: 15px; }
+
+/* Login and Register Page Forms */
+.panel-register { padding-top: 40px !important; }
+.panel-login { background: #404040; color: white !important; padding-top: 40px; padding-bottom: 40px; }
+.panel-login .control-label { font-size: 16px !important; }
+.panel-login .btn-link, .panel-register .btn-link { color: #F04124; padding: 15px 0px !important; }
+.panel-login .btn-link:hover, .panel-register .btn-link:hover { color: tomato;}
+.login-icon { padding-right: 10px; }
+.login-header { margin-bottom: 0px; font-weight: 800px; display: inline; text-align: right; }
+.btn-black, .btn-red { padding: 8px 25px !important; font-size: 20px !important; }
+.btn-red { background: #F04124; color: white; }
+.btn-red:hover { color: #eeeeee !important; background: #CC351E; }
+.btn-black { background: #595959; color: white; }
+.btn-black:hover { background: #333333; color: #eeeeee !important; }
+
+/* EDIT Profile */
+.edit-profile { padding: 20px; }
+.edit-profile .nav-pills.nav-stacked li a { font-weight: 800; }
+.edit-profile .nav-pills.nav-stacked li.active a{ background: #E0341D !important; border-color: #dddddd; }
+.edit-profile .nav-pills.nav-stacked li.active:hover a { background: #c62a15; border-color: #dddddd; }
+
+/* Action Bar */
+.global-action-bar, .global-action-bar .container { background: #E0341D; }
+.global-action-bar { box-shadow: 2px 2px 5px rgba(0,0,0,0.2) !important; z-index:9999; }
+.global-action-bar .actions { float: right; padding: 5px; width: 100%; }
+.global-action-bar .actions .btn { padding: 5px; }
+.global-action-bar .actions .copyright { font-size: 10px; color: white; }

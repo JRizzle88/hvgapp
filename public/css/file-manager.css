@@ -1,0 +1,55 @@
+body { padding-top: 40px; }
+
+/* File Manager Container */
+@media (min-width: 1200px) {
+    header#file-manager-header .container { width: 1300px; background: white; padding-bottom: 10px; box-shadow: none;}
+    .container.file-manager { width: 1300px; }
+}
+
+/* Header - filemanager/_header.blade.php */
+
+header#file-manager-header .container .navbar-brand img { max-width: 200px; }
+header#file-manager-header .container a.navbar-brand { padding-left: 0px; }
+header#file-manager-header .messages.container { padding: 0px; }
+header#file-manager-header .container li a { color: #333333; font-size: 16px; padding: 5px 25px; margin-top: 15px; }
+
+.well.upload-file { padding: 5px; }
+
+
+/*************************/
+/* File Manager GridView */
+/*************************/
+.fileentry a .label-success:hover { cursor: pointer; }
+
+.fileentry .caption {  }
+.fileentry .caption i.fa { font-size: 18px; }
+
+.fileentry .thumbnail .file-container { height: 170px; display:block; }
+.fileentry .thumbnail .file-container:hover { cursor: pointer; }
+.fileentry .thumbnail .file-container p { font-size: 30px; text-align: center !important; }
+.fileentry .thumbnail .file-container p .fa { margin-top: 30px; }
+.fileentry .thumbnail .file-container p small { font-size: 20px !important;  }
+.fileentry .thumbnail .file-container img { position: relative; top: 50%; transform: translateY(-50%); max-height: 170px; }
+
+/* File Lightbox */
+#lightbox .modal-content {
+    display: inline-block;
+    text-align: center;   
+}
+
+#lightbox .close {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+    background-color: #E0341D;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: -15px;
+    right: -55px; 
+    z-index:1032;
+}
+/*************************/
+/* File Manager ListView */
+/*************************/
+.file-manager-table .list-view-image { max-width: 200px; }
